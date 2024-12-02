@@ -20,6 +20,9 @@ class Events extends Model
         'attendance_capacity',
         'ticket_pricing',
         'ticket_price',
+        'draft',
+        'revenue',
+        'event_url',
         'user_id'
     ];
 
