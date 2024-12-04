@@ -36,6 +36,7 @@ class EventsController extends Controller
 
         $filteredEvents = $events->map(function ($event) {
             return [
+                'id' => $event->id,
                 'name' => $event->name,
                 'start_date' => $event->start_date,
                 'type' => $event->type,
